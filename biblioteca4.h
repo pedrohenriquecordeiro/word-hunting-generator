@@ -14,14 +14,6 @@ int linha,coluna;
 FILA *animais;
 FILA *frutas;
 
-/* char letras[] = {
-  'A', 'B', 'C', 'D', 'E', 'F',
-  'G', 'H', 'I', 'J', 'K', 'L',
-  'M', 'N', 'O', 'P', 'Q', 'R',
-  'S', 'T', 'U', 'V', 'W', 'X',
-  'Y', 'Z'
-};*/
-
 char letras[] = {
   'a', 'b', 'c', 'd', 'e', 'f',
   'g', 'h', 'i', 'j', 'k', 'l',
@@ -118,7 +110,7 @@ void make(FILA *fila,int tipo_fila) // 0 animais 1 frutas
           letra=fgetc(ptr);
           if( letra != '\n')
           {
-            insere(fila,letra); //coloca as letras da palvra sorteada na fila
+            insere(fila,letra); //coloca as letras da palavra sorteada na fila
           }
         }
         fclose(ptr);
