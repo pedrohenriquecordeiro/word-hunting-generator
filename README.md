@@ -3,16 +3,16 @@ Trabalho apresentado para a disciplina de Algoritmos e Estruturas de Dados 1. O 
 
 
 
-animais.txt = lista de nomes de animais
+animais.txt = animal names list
 
-frutas.txt = lista de nomes de frutas
+frutas.txt = fruit names list
 
-matriz.txt = saida do programa com o caça palavras e a resolução
+matriz.txt = exit the program with word search and table solution
 
-biblioteca4.h = .h com todas as funções logicas para a construção do caça palavras
+biblioteca4.h = logical functions for building word search
 
-main4.c = programa main para a criação do caça palavras
+main4.c = model main to build the game
 
-resolve.h = .h com todas as funções logicas para a solução do caça palavras
+resolve.h = logical functions for the word search solution
 
-resolve.c = programa main para resolver o caça palavras
+resolve.c = main program to solve word search
